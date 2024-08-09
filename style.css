@@ -11,7 +11,19 @@ body{
     transition: 0.5s;
     padding: 10px 20px;
     background-color: blue;
-   
+    
+}
+
+.blink {
+    animation: blinker 2s linear infinite;
+    color: red;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
 }
 
 .container_title .title1{
@@ -21,6 +33,13 @@ body{
 
 .container_title img{
     width: 100px;
+    background-color: white;
+    
+    
+}
+.container_title p .location_img{
+    width: 20px;
+    
     
 }
 .container_title_free{
@@ -34,9 +53,9 @@ body{
     align-items: center;
     padding: 10px 20px;
     justify-content: center;
-    background-color:goldenrod;
+    background-color:white;
     color: white;
-    
+    height: 20px;
   
 }
 .container_title span{
@@ -50,11 +69,14 @@ body{
     text-align: center;
     padding-top: 10px;
     transition: 0.5s;
+    
 }
 .title{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 20px;
+    padding-bottom: 20px;
 }
 
 svg{
