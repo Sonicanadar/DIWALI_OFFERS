@@ -21,7 +21,7 @@ const addDataToHTML = () => {
             newProduct.innerHTML =  `
                 <img src="${product.image}" alt="">
                 <h2>${product.title}</h2>
-                <div class="price"><span>MRP. ${product.price} </span>SP.${product.discount}</div>
+                <div class="price"><span>MRP. ${product.price} </span>SP.${Math.floor((product.price*0.3))}</div>
                  
                 `;
                 listProductHTML.appendChild(newProduct);
