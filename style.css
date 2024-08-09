@@ -9,14 +9,19 @@ body{
     text-align: center;
     padding-top: 10px;
     transition: 0.5s;
-    display: flex;
-    align-items: center;
     padding: 10px 20px;
-    justify-content: center;
-    background-color: darkblue;
-    color: white;
-    font-size:xx-large;
-    font-family: cursive;
+    background-color: blue;
+   
+}
+
+.container_title .title1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_title img{
+    width: 100px;
+    
 }
 .container_title_free{
     width: 900px;
