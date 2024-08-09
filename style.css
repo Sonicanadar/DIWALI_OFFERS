@@ -18,6 +18,22 @@ body{
     font-size:xx-large;
     font-family: cursive;
 }
+.container_title_free{
+    width: 900px;
+    max-width: 90vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: center;
+    background-color:goldenrod;
+    color: white;
+    
+  
+}
 .container_title span{
    font-size: medium;
 }
